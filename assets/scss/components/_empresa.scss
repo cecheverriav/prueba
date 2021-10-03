@@ -3,6 +3,10 @@
     padding: 1em;
     margin-left: 1em;
 
+    @include mobile-breakpoint {
+        margin: auto;
+    }
+
     .etiqueta {
         animation: translate 2s linear infinite alternate;
     }

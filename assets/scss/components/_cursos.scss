@@ -2,6 +2,11 @@
     border: 1px solid $sable;
     padding: 1em;
     margin-right: 1em;
+
+    @include mobile-breakpoint {
+        margin: auto;
+        margin-bottom: 2em;
+    }
 }
 .cursos__card {
     border: 1px solid lightgray;

@@ -3,5 +3,9 @@
 
     img {
         width: 40%;
+
+        @include mobile-breakpoint {
+            width: 100%;
+        }
     }
 }
