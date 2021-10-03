@@ -12,13 +12,16 @@
 @import 'base/reset';
 
 // layout
+@import 'layout/grid';
 @import 'layout/navigation';
 @import 'layout/header';
+@import 'layout/main';
 @import 'layout/footer';
 
 // components
 @import 'components/button';
 @import 'components/text-input';
+@import 'components/cursos';
 
 // pages
 
