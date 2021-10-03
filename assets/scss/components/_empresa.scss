@@ -28,6 +28,10 @@
     border-radius: 50%;
 }
 
+.empresa__title {
+    text-transform: uppercase;
+}
+
 .empresa__networks {
     i {
         margin-right: 10px;
@@ -40,6 +44,7 @@
 
 .empresa__more-title {
     background-color: $charcoal;
+    padding: 0.5em 0;
     color: white;
     width: 100%;
 }

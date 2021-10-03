@@ -313,7 +313,7 @@ p {
   }
 }
 .navbar {
-  /* width: 100%; */
+  font-weight: 700;
   background-color: black;
   display: flex;
   align-items: center;
@@ -401,8 +401,7 @@ input[type=checkbox]:checked ~ .navbar__list {
 }
 
 .container {
-  margin: 1em auto;
-  width: 98%;
+  margin: 1em;
 }
 
 /* Footer */
@@ -528,6 +527,10 @@ input[type=checkbox]:checked ~ .navbar__list {
   border-radius: 50%;
 }
 
+.empresa__title {
+  text-transform: uppercase;
+}
+
 .empresa__networks i {
   margin-right: 10px;
 }
@@ -538,6 +541,7 @@ input[type=checkbox]:checked ~ .navbar__list {
 
 .empresa__more-title {
   background-color: #2e1503;
+  padding: 0.5em 0;
   color: white;
   width: 100%;
 }
