@@ -347,7 +347,12 @@ p {
 }
 
 .navbar__toggler {
-  color: white;
+  font-size: 30px;
+  color: #fff;
+}
+
+.navbar__toggler:hover {
+  color: #ffa500;
 }
 
 input[type=checkbox] {

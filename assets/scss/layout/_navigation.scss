@@ -31,7 +31,12 @@
   width: 10%;
 }
 .navbar__toggler {
-  color: white;
+  font-size: $x-large;
+  color: $white;
+}
+
+.navbar__toggler:hover {
+  color: $orange;
 }
 
 input[type="checkbox"] {
