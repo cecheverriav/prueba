@@ -1,31 +1,28 @@
 // abstracts
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
+@import "abstracts/variables";
+@import "abstracts/mixins";
 // vendors
 
 // base
-@import 'base/typography';
-@import 'base/icons';
-@import 'base/animation';
+@import "base/typography";
+@import "base/icons";
+@import "base/animation";
 
 // reset
-@import 'base/reset';
+@import "base/reset";
 
 // layout
-@import 'layout/grid';
-@import 'layout/navigation';
-@import 'layout/header';
-@import 'layout/container';
-@import 'layout/footer';
+@import "layout/grid";
+@import "layout/navigation";
+@import "layout/header";
+@import "layout/container";
+@import "layout/footer";
 
 // components
-@import 'components/button';
-@import 'components/text-input';
-@import 'components/cursos';
-@import 'components/empresa';
+@import "components/button";
+@import "components/text-input";
+@import "components/cursos";
+@import "components/empresa";
 // pages
 
 // theme
-
-
-

@@ -10,8 +10,8 @@
     flex-direction: column;
 }
 
-@mixin large-breakpoint {
-    @media (max-width: $breakpoint-lg) {
+@mixin desktop-breakpoint {
+    @media (min-width: $breakpoint-xs) {
         @content;
     }
 }

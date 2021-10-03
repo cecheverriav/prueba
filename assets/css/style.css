@@ -5,7 +5,12 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -48,10 +53,10 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #FFAF6D;
+  color: #ffaf6d;
 }
 a:active {
-  color: #FFAF6D;
+  color: #ffaf6d;
 }
 
 p {
@@ -358,7 +363,7 @@ input[type=checkbox]:checked ~ .navbar__list {
   max-width: 40px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 576px) {
   .navbar__toggler {
     display: none;
   }
@@ -421,7 +426,7 @@ input[type=checkbox]:checked ~ .navbar__list {
   display: flex;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 576px) {
   .footer {
     flex-direction: row;
     justify-content: space-around;
@@ -438,11 +443,11 @@ input[type=checkbox]:checked ~ .navbar__list {
   }
 
   /* .footer__links .link:nth-child(1) {
-    color: red;
-  } */
+      color: red;
+    } */
 }
 .button {
-  background-color: #FFA500;
+  background-color: #ffa500;
 }
 
 .button:hover {
@@ -454,7 +459,7 @@ input[type=checkbox]:checked ~ .navbar__list {
 }
 
 .text-input:focus {
-  background-color: #FFA500;
+  background-color: #ffa500;
 }
 
 .cursos {
@@ -507,7 +512,7 @@ input[type=checkbox]:checked ~ .navbar__list {
 }
 
 .empresa__more-title {
-  background-color: #2E1503;
+  background-color: #2e1503;
   color: white;
   width: 100%;
 }

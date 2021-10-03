@@ -1,20 +1,19 @@
 /* en sass la animación va en base */
 
 @keyframes translate {
-    0% {
-      transform: translateX(150px);
-    }
-    100% {
-      transform: translateX(0);
-    }
+  0% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @keyframes rotate {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
