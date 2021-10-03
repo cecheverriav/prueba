@@ -9,6 +9,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Ubuntu", sans-serif;
 }
 
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
 /* en sass la animación va en base */
 @keyframes translate {
   0% {
@@ -37,7 +45,6 @@ img {
 }
 
 a {
-  color: #fff;
   text-decoration: none;
 }
 a:hover {
@@ -45,6 +52,10 @@ a:hover {
 }
 a:active {
   color: #FFAF6D;
+}
+
+p {
+  line-height: 1.5em;
 }
 
 .row {
@@ -322,6 +333,7 @@ a:active {
   text-decoration: none;
   color: white;
   margin: 0.5rem;
+  font-size: 14px;
 }
 
 .navbar__item--toggler {
@@ -373,17 +385,9 @@ input[type=checkbox]:checked ~ .navbar__list {
   width: 40%;
 }
 
-main {
-  margin: 6rem auto;
-  width: 80%;
-}
-main .etiqueta {
-  animation: translate 2s linear infinite alternate;
-}
-main .tuerca__interna,
-main .tuerca__externa {
-  animation: rotate 2s linear infinite;
-  transform-origin: 80% 80%;
+.container {
+  margin: 1em auto;
+  width: 98%;
 }
 
 /* Footer */
@@ -393,6 +397,7 @@ main .tuerca__externa {
   flex-direction: column;
   justify-content: center;
   padding: 2em 0;
+  font-size: 12px;
 }
 
 .footer__text {
@@ -453,8 +458,9 @@ main .tuerca__externa {
 }
 
 .cursos {
-  border: 1px solid gray;
+  border: 1px solid #060606;
   padding: 1em;
+  margin-right: 1em;
 }
 
 .cursos__card {
@@ -466,6 +472,53 @@ main .tuerca__externa {
 .cursos__icons span {
   margin-left: 5px;
   margin-right: 10px;
+}
+
+.empresa {
+  border: 1px solid #060606;
+  padding: 1em;
+  margin-left: 1em;
+}
+.empresa .etiqueta {
+  animation: translate 2s linear infinite alternate;
+}
+.empresa .tuerca__interna,
+.empresa .tuerca__externa {
+  animation: rotate 2s linear infinite;
+  transform-origin: 80% 80%;
+}
+
+.empresa__card {
+  text-align: center;
+}
+
+.empresa__img {
+  border: 1px solid #000;
+  width: 40%;
+  border-radius: 50%;
+}
+
+.empresa__networks i {
+  margin-right: 10px;
+}
+
+.empresa__description {
+  text-align: justify;
+}
+
+.empresa__more-title {
+  background-color: #2E1503;
+  color: white;
+  width: 100%;
+}
+
+.empresa__more-courses {
+  text-align: left;
+  list-style: circle;
+}
+
+.empresa__animated {
+  width: 40%;
 }
 
 /*# sourceMappingURL=style.css.map */

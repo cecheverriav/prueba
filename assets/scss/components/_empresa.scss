@@ -1,0 +1,50 @@
+.empresa {
+    border: 1px solid $sable;
+    padding: 1em;
+    margin-left: 1em;
+
+    .etiqueta {
+        animation: translate 2s linear infinite alternate;
+    }
+    
+    .tuerca__interna,
+    .tuerca__externa {
+        animation: rotate 2s linear infinite;
+        transform-origin: 80% 80%;
+    }
+}
+
+.empresa__card {
+    text-align: center;
+}
+
+.empresa__img {
+    border: 1px solid $black;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.empresa__networks {
+    i {
+        margin-right: 10px;
+    }
+}
+
+.empresa__description {
+    text-align: justify;
+}
+
+.empresa__more-title {
+    background-color: $charcoal;
+    color: white;
+    width: 100%;
+}
+
+.empresa__more-courses {
+    text-align: left;
+    list-style: circle;
+}
+
+.empresa__animated {
+    width: 40%;
+}
